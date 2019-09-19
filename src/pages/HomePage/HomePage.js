@@ -7,9 +7,7 @@ import './HomePage.scss';
 
 const HomePage = () => (
   <div className="homepage">
-    <Directory>
-      <MenuItem />
-    </Directory>
+    <Directory />
   </div>
 );
 
