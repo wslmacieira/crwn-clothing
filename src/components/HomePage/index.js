@@ -1,6 +1,8 @@
 import React from 'react';
 
-const HomePage = props => (
+import './HomePage.scss'
+
+const HomePage = () => (
   <div className="homepage">
     <div className="directory-menu">
       <div className="menu-item">
