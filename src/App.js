@@ -13,7 +13,7 @@ import CheckoutPage  from './pages/Checkout/CheckoutPage'
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/userActions';
-import { selectCurrentUser } from './redux/user/user.select';
+import { selectCurrentUser } from './redux/user/user.selectors';
 
 class App extends Component {
   componentDidMount() {
